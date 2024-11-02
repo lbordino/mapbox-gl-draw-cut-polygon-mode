@@ -1,8 +1,12 @@
-import {
-  geojsonTypes,
-  updateActions,
-  events,
-} from "@mapbox/mapbox-gl-draw/src/constants";
+import MapboxGlDraw from '@mapbox/mapbox-gl-draw';
+const {
+    	geojsonTypes,
+    	cursors,
+    	types,
+    	updateActions,
+    	modes,
+    	events,
+    } = MapboxGlDraw.constants;
 
 import difference from "@turf/difference";
 
